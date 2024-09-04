@@ -1,0 +1,54 @@
+root@helmchartrepo-cpechart-0032668593-b954fbbfc-6nc9p:/# iperf -c 192.168.255.21 -p 5001 -i 1 -t 120
+------------------------------------------------------------
+Client connecting to 192.168.255.21, TCP port 5001
+TCP window size: 67.5 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.255.1 port 39574 connected with 192.168.255.21 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 1.0 sec   275 KBytes  2.25 Mbits/sec
+[  3]  1.0- 2.0 sec   147 KBytes  1.20 Mbits/sec
+[  3]  2.0- 3.0 sec   127 KBytes  1.04 Mbits/sec
+
+
+[  3]  0.0-43.2 sec  6.56 MBytes  1.27 Mbits/sec
+
+
+
+-----------------------------------------------------------------------------------------------------------
+
+root@helmchartrepo-cpechart-0032668593-b954fbbfc-6nc9p:/# iperf -c 192.168.255.21 -p 5002 -i 1 -t 30 -b 300K
+------------------------------------------------------------
+Client connecting to 192.168.255.21, TCP port 5002
+TCP window size: 67.5 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.255.1 port 50462 connected with 192.168.255.21 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 1.0 sec   256 KBytes  2.10 Mbits/sec
+[  3]  1.0- 2.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  2.0- 3.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  3.0- 4.0 sec   128 KBytes  1.05 Mbits/sec
+
+
+[  3]  0.0-30.0 sec  1.12 MBytes   314 Kbits/sec
+
+
+------------------------------------------------------------------------------
+
+
+root@helmchartrepo-cpechart-0032668593-b954fbbfc-6nc9p:/# iperf -c 192.168.255.21 -p 5003 -i 1 -t 30 -b 100K
+------------------------------------------------------------
+Client connecting to 192.168.255.21, TCP port 5003
+TCP window size: 45.0 KByte (default)
+------------------------------------------------------------
+[  3] local 192.168.255.1 port 48158 connected with 192.168.255.21 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 1.0 sec   126 KBytes  1.03 Mbits/sec
+[  3]  1.0- 2.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  2.0- 3.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  3.0- 4.0 sec  0.00 Bytes  0.00 bits/sec
+[  3]  4.0- 5.0 sec   128 KBytes  1.05 Mbits/sec
+
+
+[  3]  0.0-30.0 sec   382 KBytes   104 Kbits/sec
+
+
