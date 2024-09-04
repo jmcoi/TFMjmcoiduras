@@ -12,3 +12,9 @@ En este repeosistorio se presentan las configuraciones llevadas a cabo en el tra
 
 # Escenario SD-WAN
 
+# Arquitectura de red
+![Escenario](SD-WAN/Imagen4.png)
+# Arquitectura OSM
+![Escenario](SD-WAN/Imagen5.png)
+# Arquitectura SDN
+![Escenario](SD-WAN/Imagen6.png)
